@@ -13,8 +13,8 @@ public class HomeWork8 extends JFrame {
         setBounds(600,600,300,120);
         Font font = new Font("Arial", Font.BOLD, 32);
         JTextField counterValue = new JTextField(String.valueOf(value));
-        JButton increaseButton = new JButton("+");
-        JButton decreaseButton = new JButton("-");
+        JButton increaseButton = new JButton(">");
+        JButton decreaseButton = new JButton("<");
         counterValue.setFont(font);
         increaseButton.setFont(font);
         decreaseButton.setFont(font);
